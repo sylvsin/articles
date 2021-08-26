@@ -56,8 +56,6 @@ const App: React.FC = () => {
                 {cat} 
               </p>
           ))}
-
-          {/* <h2 className="title">Title</h2> */}
         </div>
         <div className="main">
           <h2>Title</h2>
