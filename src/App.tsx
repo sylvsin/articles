@@ -14,6 +14,8 @@ export interface IArticle {
   avg_rating: number;
 }
 
+export const TOKEN = "Token c4700a6e4a06bf26c8563b9b517c4aba84902379";
+
 const App: React.FC = () => {
 
   const [articleRecord, setArticleRecord] = useState<Record<string, IArticle[]>>({}); // <Category, Article[]>

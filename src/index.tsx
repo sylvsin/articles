@@ -1,12 +1,23 @@
+import './index.css';
+
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+
+import {
+  BrowserRouter,
+  Route,
+} from 'react-router-dom';
+
 import App from './App';
+import Auth from './components/Auth/Auth';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <Route exact path="/" component={Auth} />
+      <Route exact path="/articles" component={App} />
+    </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );
