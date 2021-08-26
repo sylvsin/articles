@@ -24,13 +24,13 @@
 }
 
 .sidebar {
-    width: 30%;
-    display: flex;
-    justify-content: space-around;
+    width: 20%;
+    /* display: flex;
+    justify-content: space-around; */
 }
 
 .main {
-    width: 70%;
+    width: 80%;
     display: flex;
     justify-content: space-around;
 }
